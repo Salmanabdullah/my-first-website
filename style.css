@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 900vw;
+
+}
+
+.horizontal-line{
+    background-color: red;
+    width: 3px;
+    height: 73px;
+    margin: 32px 8px 0 0;
+    border-radius: 2px;
+
+}
+.heading{
+    display: flex;
+    margin: 50px ;
+    
+}
+.mission{
+    width: 50%;
+    background-color: green;
+}
+h1{
+    font-size: ;
+}
+.person2 img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+.goals{
+    display: flex;
+}
+.goal{
+    height: 400px; 
+    width: 300px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 15px; 
+}
+.goal img{
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
+footer{
+    height: 150px;
+    text-align: center;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer span{
+    color: rgb(147, 45, 11);
+}
