@@ -1,52 +1,69 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
     max-width: 900vw;
-
 }
-
-.horizontal-line{
-    background-color: red;
-    width: 3px;
-    height: 73px;
-    margin: 32px 8px 0 0;
-    border-radius: 2px;
-
-}
-.heading{
+section{
     display: flex;
-    margin: 50px ;
+    margin: 10px 50px;
+}
+.heading-body {
+    width: 50%;
+    
     
 }
-.mission{
+.heading-body p{
     width: 50%;
-    background-color: green;
 }
-h1{
-    font-size: ;
+.heading-body img{
+    width: 20vw;
+    margin-top: -50px;
+
 }
-.person2 img{
+.person-2{
+    text-align: center;
+}
+.horizontal-line {
+    background-color: red;
+    width: 4px;
+    height: 135px;
+    margin: 70px 8px 0 0;
+    border-radius: 3px;
+}
+section h1 {
+    font-size: 3.6rem;
+}
+
+
+.mission {
+    display: flex;
+}
+.mission span{
+    color: rgb(227, 192, 40);
+    font-size: 4rem;
+}
+/* .person2 img{
     height: auto; 
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
-}
-.goals{
+} */
+.goals {
     display: flex;
 }
-.goal{
-    height: 400px; 
+.goal {
+    height: 400px;
     width: 300px;
     background-color: aqua;
     margin: 20px;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
-.goal img{
-    height: auto; 
-    width: auto; 
-    max-width: 100px; 
+.goal img {
+    height: auto;
+    width: auto;
+    max-width: 100px;
     max-height: 100px;
 }
-footer{
+footer {
     height: 150px;
     text-align: center;
     background-color: rgb(18, 17, 17);
@@ -54,6 +71,6 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-footer span{
+footer span {
     color: rgb(147, 45, 11);
 }
