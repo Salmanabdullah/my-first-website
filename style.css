@@ -2,26 +2,22 @@ body {
     font-family: "Poppins", sans-serif;
     max-width: 900vw;
 }
-section{
+.flexible {
     display: flex;
-    margin: 10px 50px;
+    margin: 100px 40px;
+    padding-left: 5%;
 }
-.heading-body {
-    width: 50%;
-    
-    
-}
-.heading-body p{
+.mission-body {
     width: 50%;
 }
-.heading-body img{
+.mission-body p {
+    width: 50%;
+}
+.mission-body img {
     width: 20vw;
     margin-top: -50px;
+}
 
-}
-.person-2{
-    text-align: center;
-}
 .horizontal-line {
     background-color: red;
     width: 4px;
@@ -33,35 +29,89 @@ section h1 {
     font-size: 3.6rem;
 }
 
-
-.mission {
+.mission-heading {
     display: flex;
 }
-.mission span{
+.mission-heading span {
     color: rgb(227, 192, 40);
     font-size: 4rem;
 }
-/* .person2 img{
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-} */
-.goals {
-    display: flex;
+.explore {
+    font-size: 1.2rem;
+    margin: 15px 0px;
+    background-image: linear-gradient(aqua, rgb(21, 173, 62));
+    border: none;
+    color: rgb(51, 46, 46);
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    width: 20%;
+    text-align: center;
+}
+
+.missions {
+    text-align: center;
+    font-size: 2.5em;
+}
+.missions span {
+    color: rgb(227, 192, 40);
 }
 .goal {
+    border-radius: 25px;
+    padding: 1% 5%;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 33%;
     height: 400px;
-    width: 300px;
-    background-color: aqua;
-    margin: 20px;
-    border-radius: 15px;
+    margin: 20px 40px 20px 0;
 }
+.mission {
+    background-color: rgb(194, 218, 218);
+}
+.vision {
+    background-color: rgb(127, 201, 201);
+}
+.goals {
+    background-color: rgb(197, 212, 235);
+}
+
 .goal img {
     height: auto;
     width: auto;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
+}
+/* .develop-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    
+} */
+.develop-section {
+    display: inline-flex;
+    margin: 100px 40px 100px 0;
+}
+.shape {
+    width: 320px;
+    height: 320px;
+    margin-top: 110px;
+}
+.develop {
+    width: 40%;
+    margin-right: -100px;
+}
+.developer-image {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    left: -185px;
+}
+.develop-text {
+    width: 45%;
+    font-size: 1.6em;
+    padding-top: 5%;
 }
 footer {
     height: 150px;
