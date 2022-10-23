@@ -54,7 +54,7 @@ section h1 {
 
 .missions {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 .missions span {
     color: rgb(227, 192, 40);
@@ -122,22 +122,54 @@ section h1 {
     display: inline-flex;
     margin: 100px 0 100px 40px;
     padding-left: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 230px 230px;
+    /* background-attachment: fixed; */
 }
 .discussion-images {
     width: 50%;
 }
 .discussion {
-    width: 26vw;
-    padding-left: 10%;
+    width: 60%;
+    float: right;
+    margin-bottom: 100px;
+    /* padding-left: 10%; */
     position: relative;
     z-index: 1;
-    right: -200px;
+    right: 100px;
 }
-.shape-1 {
-    width: 230px;
-    height: 230px;
-    margin-top: 350px;
-    float: right;
+.corona-section{
+    display: flex;
+    margin: 100px 40px;
+    padding-left: 5%;
+}
+.corona{
+    width: 50%;
+    background-color: green;
+    /* margin-right: 40px; */
+}
+.doctor{
+    padding-left: 10%;
+}
+.doctor-image{
+    height: 700px;
+    width: 400px;
+    padding-top: 4%;
+    padding-left: 5%;
+    background: url(images/shapes/shape-3.png) no-repeat, url(images/shapes/shape-3.png) no-repeat left bottom, url(images/shapes/shape-3.png) no-repeat right;
+    background-size: 200px, 100px, 20px;
+}
+
+.corona p {
+    width: 50%;
+}
+.corona h2{
+    font-size: 2.3rem;
+}
+.corona span{
+    color: rgb(227, 192, 40);
 }
 footer {
     height: 150px;
